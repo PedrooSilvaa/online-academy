@@ -19,6 +19,6 @@ public class UserEntity {
     private String password;
     private Long registrationNumber;
     @Enumerated(EnumType.STRING)
-    private Role role;
+    private Role role = Role.ROLE_STUDENT;
 
 }
