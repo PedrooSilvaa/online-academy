@@ -1,6 +1,7 @@
 package tech.silva.online_academy.web.dto;
 
 import tech.silva.online_academy.Entity.Role;
+import tech.silva.online_academy.Entity.UserEntity;
 
 public record UserResponseDto(
         Long id,
@@ -9,4 +10,13 @@ public record UserResponseDto(
         Long registrationNumber,
         Role role
 ) {
+    public static UserResponseDto ToResponse(UserEntity user) {
+        return new UserResponseDto(
+                user.getId(),
+                user.getName(),
+                user.getUsername(),
+                user.getRegistrationNumber(),
+                user.getRole()
+        );
+    }
 }
