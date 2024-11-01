@@ -1,11 +1,11 @@
-package tech.silva.online_academy.Service;
+package tech.silva.online_academy.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import tech.silva.online_academy.Entity.UserEntity;
-import tech.silva.online_academy.Repository.IUserRepository;
+import tech.silva.online_academy.entity.UserEntity;
+import tech.silva.online_academy.repository.IUserRepository;
 import tech.silva.online_academy.exception.UserUniqueViolationException;
 import tech.silva.online_academy.web.dto.UserCreateDto;
 

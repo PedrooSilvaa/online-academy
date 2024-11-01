@@ -2,7 +2,7 @@ package tech.silva.online_academy.jwt;
 
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.User;
-import tech.silva.online_academy.Entity.UserEntity;
+import tech.silva.online_academy.entity.UserEntity;
 
 public class JwtUserDetails extends User {
 

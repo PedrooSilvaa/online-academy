@@ -1,7 +1,7 @@
 package tech.silva.online_academy.web.dto;
 
-import tech.silva.online_academy.Entity.Role;
-import tech.silva.online_academy.Entity.UserEntity;
+import tech.silva.online_academy.entity.Role;
+import tech.silva.online_academy.entity.UserEntity;
 
 public record UserResponseDto(
         Long id,

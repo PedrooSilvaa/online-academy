@@ -1,4 +1,4 @@
-package tech.silva.online_academy.Entity;
+package tech.silva.online_academy.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

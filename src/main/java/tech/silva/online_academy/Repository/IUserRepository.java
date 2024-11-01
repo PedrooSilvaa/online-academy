@@ -1,7 +1,7 @@
-package tech.silva.online_academy.Repository;
+package tech.silva.online_academy.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tech.silva.online_academy.Entity.UserEntity;
+import tech.silva.online_academy.entity.UserEntity;
 
 import java.util.Optional;
 

@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tech.silva.online_academy.Entity.UserEntity;
-import tech.silva.online_academy.Service.UserService;
+import tech.silva.online_academy.entity.UserEntity;
+import tech.silva.online_academy.service.UserService;
 import tech.silva.online_academy.web.dto.UserCreateDto;
 import tech.silva.online_academy.web.dto.UserResponseDto;
 
